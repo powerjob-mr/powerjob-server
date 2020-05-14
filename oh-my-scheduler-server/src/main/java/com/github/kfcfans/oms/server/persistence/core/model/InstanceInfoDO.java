@@ -54,9 +54,4 @@ public class InstanceInfoDO {
     private Date gmtCreate;
     private Date gmtModified;
 
-
-    // 针对 只查询 jobId 的情况
-    public InstanceInfoDO(Long jobId) {
-        this.jobId = jobId;
-    }
 }
