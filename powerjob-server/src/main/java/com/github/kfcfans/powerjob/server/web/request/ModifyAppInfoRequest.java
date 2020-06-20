@@ -13,5 +13,5 @@ public class ModifyAppInfoRequest {
 
     private Long id;
     private String appName;
-    private String description;
+    private String password;
 }
