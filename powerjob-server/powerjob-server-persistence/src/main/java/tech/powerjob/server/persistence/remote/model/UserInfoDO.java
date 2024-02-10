@@ -26,6 +26,11 @@ public class UserInfoDO {
     private Long id;
 
     private String username;
+    /**
+     * since 5.0.0
+     * 昵称（第三方登陆的 username 很难识别，方便后续展示引入 nick）
+     */
+    private String nick;
 
     private String password;
     /**
