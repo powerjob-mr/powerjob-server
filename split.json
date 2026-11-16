@@ -71,6 +71,13 @@
       "reason": "Scheduler tests assert wall-clock times in the timezone upstream develops in."
     }
   ],
+  "test_isolation": [
+    {
+      "module": "powerjob-server/powerjob-server-starter",
+      "setting": "reuseForks=false",
+      "reason": "Upstream's TimezoneTest changes the JVM default timezone, which breaks later tests in a shared JVM."
+    }
+  ],
   "verified_java": 8,
   "build_command": "mvn -B clean verify",
   "filter_tool": "git-filter-repo a40bce548d2c"

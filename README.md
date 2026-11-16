@@ -51,6 +51,8 @@ module's surefire configuration. Upstream CI does not run tests.
 
 `powerjob-server/powerjob-server-starter` runs its tests with `-Duser.timezone=Asia/Shanghai`. Scheduler tests assert wall-clock times in the timezone upstream develops in.
 
+`powerjob-server/powerjob-server-starter` runs each test class in its own JVM (`reuseForks=false`). Upstream's TimezoneTest changes the JVM default timezone, which breaks later tests in a shared JVM.
+
 ## Origin
 
 See [UPSTREAM-README.md](UPSTREAM-README.md) for the original project overview

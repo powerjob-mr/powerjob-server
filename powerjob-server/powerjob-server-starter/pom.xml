@@ -69,6 +69,8 @@
                     <excludesFile>surefire-excludes.txt</excludesFile>
                     <!-- Scheduler tests assert wall-clock times in the timezone upstream develops in. -->
                     <argLine>-Duser.timezone=Asia/Shanghai</argLine>
+                    <!-- Upstream's TimezoneTest changes the JVM default timezone, which breaks later tests in a shared JVM. -->
+                    <reuseForks>false</reuseForks>
                 </configuration>
             </plugin>
             <plugin>
