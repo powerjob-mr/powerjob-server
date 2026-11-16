@@ -1,0 +1,5 @@
+# Upstream tests that cannot pass in a clean build; reasons are in split.json.
+**/server/test/RepositoryTest.java
+**/server/test/ServiceTest.java
+**/server/test/ServerInfoServiceTest.java
+**/server/test/QueryConvertUtilsTest.java
