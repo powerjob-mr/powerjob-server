@@ -5,8 +5,8 @@
   "passed": true,
   "upstream_commit": "d92ad66277ca54e14e2835b2e5a6aaf01f620684",
   "sibling_checkouts": {
-    "powerjob-common": "f2c304d2b4774e1b3248de95b2bd16e688c889af",
-    "powerjob-client": "c21ffb81ec359271a5e925f87ab9072d0a231dbf"
+    "powerjob-common": "52909e73f909c81435a493645d1db659e266363b",
+    "powerjob-client": "c3b9656511af55d42f9c872331485923dd1bf849"
   },
   "modes": {
     "sibling": {
