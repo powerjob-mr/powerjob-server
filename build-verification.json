@@ -1,0 +1,193 @@
+{
+  "command": "mvn -B clean verify",
+  "java": "Eclipse Temurin 1.8.0_452-b09",
+  "maven": "3.9.9",
+  "passed": true,
+  "upstream_commit": "d92ad66277ca54e14e2835b2e5a6aaf01f620684",
+  "sibling_checkouts": {
+    "powerjob-common": "f2c304d2b4774e1b3248de95b2bd16e688c889af",
+    "powerjob-client": "c21ffb81ec359271a5e925f87ab9072d0a231dbf"
+  },
+  "modes": {
+    "sibling": {
+      "passed": true,
+      "reactor": [
+        "powerjob",
+        "powerjob-common",
+        "powerjob-remote",
+        "powerjob-remote-framework",
+        "powerjob-remote-impl-http",
+        "powerjob-remote-impl-akka",
+        "powerjob-remote-impl-mu",
+        "powerjob-server",
+        "powerjob-server-common",
+        "powerjob-server-extension",
+        "powerjob-server-monitor",
+        "powerjob-server-persistence",
+        "powerjob-server-remote",
+        "powerjob-server-core",
+        "powerjob-server-auth",
+        "powerjob-server-migrate",
+        "powerjob-client",
+        "powerjob-server-starter",
+        "powerjob-client-build",
+        "powerjob-server-build"
+      ],
+      "tests": {
+        "tests": 233,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 2
+      },
+      "tests_by_module": {
+        "powerjob-server/powerjob-server-auth": {
+          "tests": 21,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-common": {
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-core": {
+          "tests": 32,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-persistence": {
+          "tests": 12,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-remote": {
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-starter": {
+          "tests": 162,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 2
+        }
+      }
+    },
+    "standalone": {
+      "passed": true,
+      "reactor": [
+        "powerjob-server",
+        "powerjob-server-common",
+        "powerjob-server-extension",
+        "powerjob-server-monitor",
+        "powerjob-server-persistence",
+        "powerjob-server-remote",
+        "powerjob-server-core",
+        "powerjob-server-auth",
+        "powerjob-server-migrate",
+        "powerjob-server-starter",
+        "powerjob-server-build"
+      ],
+      "tests": {
+        "tests": 233,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 2
+      },
+      "tests_by_module": {
+        "powerjob-server/powerjob-server-auth": {
+          "tests": 21,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-common": {
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-core": {
+          "tests": 32,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-persistence": {
+          "tests": 12,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-remote": {
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        },
+        "powerjob-server/powerjob-server-starter": {
+          "tests": 162,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 2
+        }
+      }
+    }
+  },
+  "monorepo_baseline_tests_by_module": {
+    "powerjob-server/powerjob-server-common": {
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-server/powerjob-server-persistence": {
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-server/powerjob-server-remote": {
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-server/powerjob-server-core": {
+      "tests": 32,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-server/powerjob-server-auth": {
+      "tests": 21,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "powerjob-server/powerjob-server-starter": {
+      "tests": 177,
+      "failures": 2,
+      "errors": 15,
+      "skipped": 2
+    }
+  },
+  "excluded_tests": 4,
+  "artifacts": [
+    "powerjob-server/powerjob-server-auth/target/powerjob-server-auth-5.1.7.jar",
+    "powerjob-server/powerjob-server-common/target/powerjob-server-common-5.1.7.jar",
+    "powerjob-server/powerjob-server-core/target/powerjob-server-core-5.1.7.jar",
+    "powerjob-server/powerjob-server-extension/target/powerjob-server-extension-5.1.7.jar",
+    "powerjob-server/powerjob-server-migrate/target/powerjob-server-migrate-5.1.7.jar",
+    "powerjob-server/powerjob-server-monitor/target/powerjob-server-monitor-5.1.7.jar",
+    "powerjob-server/powerjob-server-persistence/target/powerjob-server-persistence-5.1.7.jar",
+    "powerjob-server/powerjob-server-remote/target/powerjob-server-remote-5.1.7.jar",
+    "powerjob-server/powerjob-server-starter/target/powerjob-server-starter-5.1.7.jar"
+  ],
+  "scope": "This repository's modules and tests. sibling: built with the sibling library checkouts in the reactor; standalone: built alone against the published 5.1.7 artifacts. Excluded upstream tests are listed in split.json."
+}
